@@ -28,6 +28,56 @@
 			</center>
 		</nav>
 	</header>
+	<main>
+		<center>
+			<table>
+				<tr>
+					<th class="titulo" id="title" colspan="2">Cadastro</th>
+				</tr>
+				<tr>
+					<td class="labelitem">Nome:</td>
+					<td><input type="text" name="nome"></td>
+				</tr>
+				<tr>
+					<td class="labelitem">E-mail:</td>
+					<td><input type="email" name="email1"></td>
+				</tr>
+				<tr>
+					<td class="labelitem">Confirmação de e-mail:</td>
+					<td><input type="email" name="email2"></td>
+				</tr>
+				<tr>
+					<td class="labelitem">Senha:</td>
+					<td><input type="password" name="senha1"></td>
+				</tr>
+				<tr>
+					<td class="labelitem">Confirmação de senha:</td>
+					<td><input type="password" name="senha2"></td>
+				</tr>
+				<tr>
+					<td class="labelitem">Sexo:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="genero" value="M"><label class="label">Masculino</label>
+	  						<input type="radio" name="genero" value="F"><label class="label">Feminino</label>
+	  						<input type="radio" name="genero" value="Indef"><label class="label">Indefinido</label>
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td class="item">Data de nascimento:</td>
+					<td><input type="date" name="data"></td>
+				</tr>
+				<tr colspan="2">
+					<td><input type="checkbox" name="termos"> Eu li e aceito os <a href="#">termos de uso</a></td>
+				</tr>
+				<tr>
+					<td><button type="submit">Cadastrar</button>
+					<button type="reset" id="limpar">Limpar</button></td>
+				</tr>
+			</table>
+		</center>
+	</main>
 	<footer>
 		<center>
 			<small>
