@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<center>
+			<table>
+				<tr>
+					<th colspan="2"><h3>Editor de Produto</h3></th>
+				</tr>
+				<tr>
+					<td>Imagem</td>
+					<td><input type="file" name="img"></td>
+				</tr>
+				<tr>
+					<td>Nome:</td>
+					<td><input type="text" name="nome" value="Lâmpada LED 9W"></td>
+				</tr>
+				<tr>
+					<td>Marca:</td>
+					<td><input type="text" name="marca" value="Foxlux"></td>
+				</tr>
+				<tr>
+					<td>Em estoque:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="estoque" value="Y">Sim 
+	  						<input type="radio" name="estoque" value="N" checked>Não
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Preço:</td>
+					<td><input type="number" name="preco" value="12"></td>
+				</tr>
+				<tr>
+					<td>Unidade:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="unidade" value="mtr">MTR 
+	  						<input type="radio" name="unidade" value="uni" checked>UNI
+	  						<input type="radio" name="unidade" value="kg">KG
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Categoria 1:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="cat1" value="Ferr">Ferramentas <br> 
+	  						<input type="radio" name="cat1" value="Hidr">Hidráulica <br>
+	  						<input type="radio" name="cat1" value="Elet" checked>Elétrica
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Categoria 2:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="cat2" value="coneccao">Cabos <br>
+	  						<input type="radio" name="cat2" value="valvulas">Tomadas <br>
+	  						<input type="radio" name="cat2" value="tubo" checked>Lâmpadas 
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Código</td>
+					<td><input type="text" name="cod" value="12763176382"></td>
+				</tr>
+			</table>
+			<a href="painel_de_controle.html" onclick="alert('Editado com sucesso.')"><button tipe="submit" value="save">Salvar</button></a>
+			<a href="produtos.html" onclick="alert('Edição cancelada')"><button tipe="submit" value="save">Cancelar</button></a>
+		</center>
+</body>
+</html>

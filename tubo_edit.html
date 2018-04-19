@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<center>
+			<table>
+				<tr>
+					<th colspan="2"><h3>Editor de Produto</h3></th>
+				</tr>
+				<tr>
+					<td>Imagem</td>
+					<td><input type="file" name="img"></td>
+				</tr>
+				<tr>
+					<td>Nome:</td>
+					<td><input type="text" name="nome" value="Tubo PVC 100mm"></td>
+				</tr>
+				<tr>
+					<td>Marca:</td>
+					<td><input type="text" name="marca" value="Krona"></td>
+				</tr>
+				<tr>
+					<td>Em estoque:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="estoque" value="Y" checked>Sim 
+	  						<input type="radio" name="estoque" value="N">Não
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Preço:</td>
+					<td><input type="number" name="preco" value="50"></td>
+				</tr>
+				<tr>
+					<td>Unidade:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="unidade" value="mtr" checked>MTR 
+	  						<input type="radio" name="unidade" value="uni">UNI
+	  						<input type="radio" name="unidade" value="kg">KG
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Categoria 1:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="cat1" value="Ferr">Ferramentas <br> 
+	  						<input type="radio" name="cat1" value="Hidr" checked>Hidráulica <br>
+	  						<input type="radio" name="cat1" value="Elet">Elétrica
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Categoria 2:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="cat2" value="tubo" checked>Tubos <br>
+	  						<input type="radio" name="cat2" value="coneccao">Conecções <br>
+	  						<input type="radio" name="cat2" value="valvulas">Válvulas
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Código</td>
+					<td><input type="text" name="cod" value="812839123"></td>
+				</tr>
+			</table>
+			<a href="painel_de_controle.html" onclick="alert('Editado com sucesso.')"><button tipe="submit" value="save">Salvar</button></a>
+			<a href="produtos.html" onclick="alert('Edição cancelada')"><button tipe="submit" value="save">Cancelar</button></a>
+		</center>
+</body>
+</html>

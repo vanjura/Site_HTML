@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<center>
+			<table>
+				<tr>
+					<th colspan="2"><h3>Editor de Usuário</h3></th>
+				</tr>
+				<tr>
+					<td>Nome:</td>
+					<td><input type="text" name="nome" value="Ciclano"></td>
+				</tr>
+				<tr>
+					<td>E-mail:</td>
+					<td><input type="email" name="email" value="ciclano@cic.com"></td>
+				</tr>
+				<tr>
+					<td>Senha:</td>
+					<td><input type="password" name="senha" value="987654321"></td>
+				</tr>
+				<tr>
+					<td>Sexo:</td>
+					<td>
+						<form>
+	  						<input type="radio" name="genero" value="M" checked><label class="label">Masculino</label>
+	  						<input type="radio" name="genero" value="F"><label class="label">Feminino</label>
+	  						<input type="radio" name="genero" value="Indef"><label class="label">Indefinido</label>
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td class="item">Data de nascimento:</td>
+					<td><input type="date" name="data" value="1990-01-01"></td>
+				</tr>
+			</table>
+			<a href="painel_de_controle.html" onclick="alert('Editado com sucesso.')"><button tipe="submit" value="save">Salvar</button></a>
+			<a href="usuarios.html" onclick="alert('Edição cancelada')"><button tipe="submit" value="save">Cancelar</button></a>
+		</center>
+</body>
+</html>
