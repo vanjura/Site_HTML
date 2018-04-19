@@ -30,9 +30,10 @@
 	</header>
 	<main>
 		<center>
+		<form action="/action_page.php" method="get">
 			<table>
 				<tr>
-					<th class="titulo" id="title" colspan="2">Cadastro</th>
+					<th class="titulo" id="title" colspan="2"><h3>Cadastro</h3></th>
 				</tr>
 				<tr>
 					<td class="labelitem">Nome:</td>
@@ -72,10 +73,11 @@
 					<td><input type="checkbox" name="termos"> Eu li e aceito os <a href="#">termos de uso</a></td>
 				</tr>
 				<tr>
-					<td><button type="submit">Cadastrar</button>
-					<button type="reset" id="limpar">Limpar</button></td>
+					<td><button type="submit" onclick="alert('Cadastro efetuado com sucesso')" value="Submit">Cadastrar</button>
+					<button type="reset" id="limpar" value="Reset">Limpar</button></td>
 				</tr>
 			</table>
+		</form>
 		</center>
 	</main>
 	<footer>
